@@ -109,8 +109,6 @@ function pickCard(){
 }
 ```
 
-****************
-
 ## 20) Given an array of numbers, add up all the elements
 ```javascript
 var a = [5,6,7,5433,543,53,535,53,543,543,23,412,34,45];
@@ -139,8 +137,7 @@ function doesntContain(arr, theThing){
 }
 ```
 
-## 23) Write a function that receives an array of numbers and returns
-the average of those numbers
+## 23) Write a function that receives an array of numbers and returns the average of those numbers
 ```javascript
 function getAvg(arr){
 	
