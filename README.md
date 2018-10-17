@@ -46,21 +46,21 @@ else
 ## 6) Can you restate the conditional to use only one negation?
 ```javascript
 if (!(x < 10) || y <= 10 || z <= 25 || !dead) {
-		console.log("You know your DeMorgan's Laws");
+	console.log("You know your DeMorgan's Laws");
 }
 ```
 
 ## 7) Can you distribute the negation across the expression in parens?
 ```javascript
 if (!(!alive || distance > 1000 || trapped || enemies < 0)) {
-		alert("game goes on");
+	alert("game goes on");
 }
 ```
 
 ## 8) Can you distribute the negation across the expression in parens?
 ```javascript
 if (!(dead && level < 99 && world == "Earth")) {
-		alert ("Life goes on");
+	alert ("Life goes on");
 }
 ```
 
@@ -93,15 +93,15 @@ steps:
 4. put the number and the suit string together and return it
 ```javascript
 function pickCard(){
-		var suit = Math.round(Math.random()*3);
-		if (suit === 0) suit = "Hearts";
-		else if (suit === 1) suit = "Diamonds";
-		else if (suit === 2) suit = "Clubs";
-		else suit = "Spades";
+	var suit = Math.round(Math.random()*3);
+	if (suit === 0) suit = "Hearts";
+	else if (suit === 1) suit = "Diamonds";
+	else if (suit === 2) suit = "Clubs";
+	else suit = "Spades";
 
-		//your code here
+	//your code here
 
-		return suit;
+	return suit;
 }
 ```
 
@@ -115,7 +115,7 @@ var a = [5,6,7,5433,543,53,535,53,543,543,23,412,34,45];
 19) Write a function has1337s() which takes an array and returns true if the array contains the number 1337
 function has1337s(arr){
 	for (var i =0; i <arr.length; i++) {
-		if (arr[i] == 1337) return true;
+	if (arr[i] == 1337) return true;
 	}
 	return false;
 }
@@ -141,7 +141,7 @@ function doesntContain(arr, theThing){
 the average of those numbers
 ```javascript
 function getAvg(arr){
-		
+	
 }
 ```
 
